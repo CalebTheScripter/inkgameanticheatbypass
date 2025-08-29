@@ -1,6 +1,6 @@
 local success1,err1=pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))() end)
 local success2,err2=pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CalebTheScripter/AlchemistWare/refs/heads/main/src.lua"))() end)
-if not(success1 and success2) then game.Players.LocalPlayer:Kick("u r either stoopid or I broke somethin XD either way gtfo") return end
+if not(success1 and success2) then game.Players.LocalPlayer:Kick("u r either stoopid or I broke somethin XD either way anyways gtfo") return end
 task.spawn(function()
 local AliveNotifications,NotificationUI={},nil
 local function CreateNotificationUI() if NotificationUI then return NotificationUI end NotificationUI=Instance.new("ScreenGui") NotificationUI.Name,NotificationUI.ZIndexBehavior,NotificationUI.Parent="NotificationUI",Enum.ZIndexBehavior.Sibling,game:GetService("CoreGui") return NotificationUI end
